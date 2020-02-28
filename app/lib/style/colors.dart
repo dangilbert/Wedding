@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+MaterialColor appBaseColor = createMaterialColor(Color(0xFF800020));
+
 MaterialColor createMaterialColor(Color color) {
   List strengths = <double>[.05];
   Map swatch = <int, Color>{};
